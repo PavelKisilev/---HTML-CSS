@@ -1,8 +1,78 @@
-* {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-	text-decoration: none;
-    color: #030202;
+@font-face{
+	font-family: "Gilroy-SemiBold";
+	font-style: normal;
+	/* font-size: 400; */
+	src: local("Gilroy-SemiBold"), 
+	url("../font/Gilroy-Semibold.woff") format("woff");
 }
 
+@font-face{
+	font-family: "Gilroy-Bold";
+	font-style: normal;
+	/* font-size: 400; */
+	src: local("Gilroy-Bold"), 
+	url("../font/Gilroy-Bold.woff") format("woff");
+}
+
+@font-face{
+	font-family: "Gilroy-Bold";
+	font-style: normal;
+	/* font-size: 400; */
+	src: local("Gilroy-Bold"), 
+	url("../font/Gilroy-Medium.woff") format("woff");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #030202;
+}
+
+.link_start {
+  font-family: "Gilroy-SemiBold", "Arial";
+  font-size: 14px;
+  line-height: 16px;
+  color: #f25822;
+}
+
+.link {
+  font-family: "Gilroy-SemiBold", "Arial";
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+}
+
+.bigname {
+  font-family: "Gilroy-Bold", "Arial";
+  font-size: 60px;
+  line-height: 70px;
+  color: #000000;
+}
+
+.basictext {
+  font-family: "Gilroy-Medium", "Arial";
+  font-size: 20px;
+  line-height: 23px;
+  color: #888888;
+}
+
+.buttonone {
+  font-family: "Gilroy-Bold", "Arial";
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+  background: #f25822;
+  box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+  border-radius: 50px;
+}
+
+.buttontwo {
+  font-family: "Gilroy-Bold", "Arial";
+  font-size: 15px;
+  line-height: 18px;
+  color: #aaaaaa;
+  background: none;
+  border: none;
+}
