@@ -1,25 +1,23 @@
-@font-face{
-	font-family: "Gilroy-SemiBold";
-	font-style: normal;
-	/* font-size: 400; */
-	src: local("Gilroy-SemiBold"), 
-	url("../font/Gilroy-Semibold.woff") format("woff");
+@font-face {
+  font-family: "Gilroy-SemiBold";
+  font-style: normal;
+  /* font-size: 400; */
+  src: local("Gilroy-SemiBold"),
+    url("../font/Gilroy-Semibold.woff") format("woff");
 }
 
-@font-face{
-	font-family: "Gilroy-Bold";
-	font-style: normal;
-	/* font-size: 400; */
-	src: local("Gilroy-Bold"), 
-	url("../font/Gilroy-Bold.woff") format("woff");
+@font-face {
+  font-family: "Gilroy-Bold";
+  font-style: normal;
+  /* font-size: 400; */
+  src: local("Gilroy-Bold"), url("../font/Gilroy-Bold.woff") format("woff");
 }
 
-@font-face{
-	font-family: "Gilroy-Bold";
-	font-style: normal;
-	/* font-size: 400; */
-	src: local("Gilroy-Bold"), 
-	url("../font/Gilroy-Medium.woff") format("woff");
+@font-face {
+  font-family: "Gilroy-Bold";
+  font-style: normal;
+  /* font-size: 400; */
+  src: local("Gilroy-Bold"), url("../font/Gilroy-Medium.woff") format("woff");
 }
 
 * {
@@ -59,6 +57,8 @@
 }
 
 .buttonone {
+  width: 140px;
+  height: 50px;
   font-family: "Gilroy-Bold", "Arial";
   font-size: 15px;
   line-height: 18px;
@@ -66,6 +66,7 @@
   background: #f25822;
   box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
   border-radius: 50px;
+  border: #f25822;
 }
 
 .buttontwo {
@@ -75,4 +76,76 @@
   color: #aaaaaa;
   background: none;
   border: none;
+}
+
+/* для настольной версии */
+.container {
+  /* width: 1920px; */
+  margin-top: 40px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+.logos {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.logosNav{  
+  width: 1170px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav{
+  width: 533px;
+  display: flex;
+  justify-content: space-between;
+}
+
+main {
+  width: 1106px;
+  display: flex;
+  margin-top: 164px;
+}
+
+.basictext {
+  width: 466px;
+  padding: 17px 0px 37px 0px;
+}
+
+.button {
+  padding: 0px 0px 162px 0px;
+}
+
+.buttonone {
+  margin-right: 72px;
+}
+
+.img {
+  width: 544;
+  height: 374;
+}
+
+article {
+  width: 1920px;
+  height: 243px;
+  background: #ffffff;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.article{
+  padding: 0 48px 0 0px;
 }
